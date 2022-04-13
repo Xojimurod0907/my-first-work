@@ -1,0 +1,583 @@
+*{
+	margin:0 auto;
+	padding: 0px;
+}
+.container{
+	width: 80%;
+    background-color:white;
+}
+.con{
+	width: 100%;
+	height: 400px;
+}
+.con img{
+	width: 100%;
+	height: 400px;
+
+}
+.blue{   
+	width: 132.5%;
+	height: 60px;
+	margin-left: -20%;
+	background-color:#c39d4c;
+}
+.blue li{
+	display: inline-block;
+	line-height: 60px;
+	height: 60px;
+	text-align: center;	
+	margin-left: 10.5%;				   
+}
+.blue li a{
+	text-decoration: none;
+	color: #000000;
+}
+.blue li a:hover{
+	color:red;
+}
+.red{
+	width: 100%;
+	display: flex;
+}
+.red .fo{
+	width: 100%;
+	height: 500px;
+}     
+.red .fo img{
+	width: 100%;
+	height: 500px;
+}
+
+.jin{
+	width: 100%;
+	display: flex;
+}  
+.jin .p{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: black;
+}
+.jin .p p{
+	font-size: 50px;
+	margin-top: 3.5%;
+	margin-left: 38%;
+	color: white;
+}
+.lolo{
+	width: 100%;
+	height: 340px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: black;
+	background-color:black;
+} 
+.lolo .kil{
+    width: 35%;
+    height: 340px;
+    
+}
+.lolo .lik{
+    width: 65%;
+    height: 340px;
+
+}
+.lolo .kil img{
+    margin-left: 20%;
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 75%;
+    height: 270px;
+    box-shadow: 10px 10px 10px white;
+}
+.lolo .lik p{
+    width: 80%;
+    margin-top: 2%;
+    color: white;
+}
+.lolo .lik input{
+    width: 15%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-left: 10%;
+    background-color: lightgrey;
+}
+.lolo .lik input:hover{
+    color: green;
+}
+.goo{
+	width: 100%;
+	height: 350px;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: black;
+}
+.goo .son{
+	width: 65%;
+	height: 350px;; 
+}
+.goo .son p{
+	width: 80%;
+	margin-left: 11%;
+	margin-top: %;
+    color: white;
+}
+.goo .nom{
+	width: 35%;
+	height: 310px; 
+}
+.goo .nom img{
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px white;
+	margin-top: %;
+}
+.goo .son input{
+    width: 15%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-left: 11%;
+    background-color: lightgrey;
+}
+.goo .son input:hover{
+    color: green;
+}
+.dev{
+	width: 100%;
+	height: 360px;
+	background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: black;
+}
+.dev .s{
+	width: 35%;
+	height: 360px;
+}
+.dev .s img{
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px white;
+	margin-left: 20%;
+	margin-top: 5%;
+}
+.dev .ss{
+	width: 65%;
+	height: 360px;
+}
+.dev .ss p{
+	width: 80%;
+	margin-top: 3%;
+	color: white;
+}
+.dev .ss input{
+    width: 15%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-left: 10%;
+    background-color: lightgrey;
+}
+.dev .ss input:hover{
+    color: green;
+}
+.and{
+	width: 100%;
+	height: 360px;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: black;
+}
+.and .f{
+	width: 65%;
+	height: 360px; 
+}
+.and .f p{
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 11%;
+    color: white;
+}
+.and .ff{
+	width: 35%;
+	height: 360px;
+}
+.and .ff img{
+	width: 83%;
+	height: 300px;
+	margin-top: 6%;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px white;
+}
+.and .f input{
+    width: 15%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-left: 11%;
+    background-color: lightgrey;
+}
+.and .f input:hover{
+    color: green;
+}
+.hoho{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+.hoho p{
+	font-size: 50px;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+}
+.web{
+	width: 100%;
+	height: 1230px;
+	background-color: black;
+}
+.web .div{
+	width: 100%;
+	height: 1230px;
+}
+.web .div img{
+	width: 310px;
+	height: 200px;
+	margin-left: 2.3%;
+	border-radius: 10px;
+	margin-top: 2.3%;
+	box-shadow: 2px 2px 5px white;
+}
+.web .div input{
+    width: 10%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 2.5%;
+    margin-left: 45%;
+    background-color: lightgrey;
+}
+.kop{
+	width: 100%;
+	background-color: black;
+}
+.kop .def{
+	width: 100%;
+	height: 100px;
+}
+.kop .def p{
+	font-size: 60px;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+}
+.gif{
+	width: 100%;
+	height: 420px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: black;
+}
+.gif .fig{
+	width: 210px;
+	height: 180px;
+	border: 0.5px solid white;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px white;
+	margin-top: 20%
+}
+.fig img{
+	width: 100%;
+	border-radius: 10px;
+	margin-top: -90%;
+}
+.fig .e{
+	font-size: 40px;
+	margin-top: 2%;
+	margin-left: 19%;
+	color: white;
+}
+.fig .ee{
+	font-size: 20px;
+	margin-top: 2%;
+	margin-left: 5%;
+	color: white;
+}
+.fig .eee{
+	font-size: 20px;
+	margin-top: 2%;
+	margin-left: 5%;
+	color: white;
+}
+.fig input{
+	width: 20%;
+	height: 40px;
+	border-radius: 100%;
+	margin-left: 70%;
+}
+.fig input:hover{
+	color: red;
+}
+.dodo{
+	width: 100%;
+	height: 420px;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.dodo .git{
+	width: 210px;
+	height: 200px;
+	border: 0.5px solid white;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px white;
+	margin-top: 20%
+}
+.git img{
+	width: 100%;
+	border-radius: 10px;
+	margin-top: -90%;
+}
+.git .e{
+	font-size: 40px;
+	margin-top: 2%;
+	margin-left: 19%;
+	color: white;
+}
+.git .ee{
+	font-size: 20px;
+	margin-top: 2%;
+	margin-left: 5%;
+	color: white;
+}
+.git .eee{
+	font-size: 20px;
+	margin-top: 2%;
+	margin-left: 5%;
+	color: white;
+}
+.git input{
+	width: 20%;
+	height: 40px;
+	border-radius: 100%;
+	margin-left: 70%;
+}
+.git input:hover{
+	color: red;
+}
+.futer{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border-bottom: 1px ridge;
+}
+.l{
+	width: 68%;
+	height: 150px;
+
+}
+.ll{
+    width: 32%;
+    height: 150px;
+}
+.ll i{
+	margin-left: 5%;
+	margin-top: 9%;
+}
+.footer{
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-around;
+    height: 240px;
+    border-bottom: 1px ridge;
+   
+}
+.footer .f{
+	width: 25%;
+	height: 220px;
+}
+.footer .ff{
+	width: 25%;
+	height: 220px;
+}
+.footer .fff{
+	width: 25%;
+	height: 220px;
+}
+.footer .ffff{
+	width: 25%;
+	height: 220px;
+}
+.f .f1{
+	text-align: center;
+	margin-left: 20%;
+	font-size: 25px;
+	margin-top: 10%;
+	color: white;
+}
+.f .f2{
+	font-size: 20px;
+	margin-left: 22%;
+	margin-top: 2%;
+	color: white;
+}
+.f .f3{
+	font-size: 20px;
+	margin-left: 22%;
+	margin-top: 2%;
+	color: white;
+}
+.f .f4{
+	font-size: 20px;
+	margin-left: 22%;
+	margin-top: 2%;
+	color: white;
+}
+.f .f5{
+	font-size: 20px;
+	margin-left: 22%;
+	margin-top: 2%;
+	color: white;
+}
+.f .f6{
+	font-size: 20px;
+	margin-left: 22%;
+	margin-top: 2%;
+	color: white;
+}
+
+
+.ff .f1{
+	margin-left: 22%;
+	font-size: 25px;
+	margin-top: 10%;
+	color: white;
+}
+.ff .f2{
+	font-size: 20px;
+	margin-left: 22%;
+	margin-top: 2%;
+	color: white;
+}
+.ff .f3{
+	font-size: 20px;
+	margin-left: 22%;
+	margin-top: 2%;
+	color: white;
+}
+.ff .f4{
+	font-size: 20px;
+	margin-left: 22%;
+	margin-top: 2%;
+	color: white;
+}
+.ff .f5{
+	font-size: 20px;
+	margin-left: 22%;
+	margin-top: 2%;
+	color: white;
+}
+.ff .f6{
+	font-size: 20px;
+	margin-left: 22%;
+	margin-top: 2%;
+	color: white;
+}
+
+
+.fff .f1{
+	text-align: center;
+	margin-left: -5%;
+	font-size: 25px;
+	margin-top: 10%;
+	color: white;
+}
+.fff .f2{
+	font-size: 20px;
+	margin-left: 22%;
+	margin-top: 2%;
+	color: white;
+}
+.fff .f3{
+	font-size: 20px;
+	margin-left: 22%;
+	margin-top: 2%;
+	color: white;
+}
+.fff .f4{
+	font-size: 20px;
+	margin-left: 22%;
+	margin-top: 2%;
+	color: white;
+}
+.fff .f5{
+	font-size: 20px;
+	margin-left: 22%;
+	margin-top: 2%;
+	color: white;
+}
+.fff .f6{
+	font-size: 20px;
+	margin-left: 22%;
+	margin-top: 2%;
+	color: white;
+}
+
+.ffff .f1{
+	margin-left: 4%;
+	font-size: 25px;
+	margin-top: 10%;
+	color: white;
+}
+.ffff .f2{
+	font-size: 20px;
+	margin-left: 5%;
+	margin-top: 2%;
+	color: white;
+}
+.ffff .f3{
+	font-size: 20px;
+	margin-left: 5%;
+	margin-top: 2%;
+	color: white;
+}
+.ffff .f4{
+	font-size: 20px;
+	margin-left: 5%;
+	margin-top: 2%;
+	color: white;
+}
+.ffff .f5{
+	font-size: 20px;
+	margin-left: 5%;
+	margin-top: 2%;
+	color: white;
+}
+.ffff .f6{
+	font-size: 20px;
+	margin-left: 5%;
+	margin-top: 2%;
+	color: white;
+}
+.mimi{
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px grey;
+}
+.mimi p{
+	text-align: center;
+	color: white;
+	margin-top: 3%;
+}
